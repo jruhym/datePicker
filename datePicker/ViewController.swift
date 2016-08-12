@@ -30,9 +30,7 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
         var cell: UITableViewCell?
         if tableView == monthTable {
             cell = tableView.dequeueReusableCellWithIdentifier("month")
-            let components = NSDateComponents()
-            components.setValue(indexPath.row, forComponent: .Month)
-            
+            cell?.textLabel?.text = calendar.monthSymbols[indexPath.row]
         } else if tableView == dayTable {
             cell = tableView.dequeueReusableCellWithIdentifier("day")
         } else {
