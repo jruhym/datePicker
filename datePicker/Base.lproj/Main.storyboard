@@ -22,16 +22,9 @@
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="66" sectionHeaderHeight="40" sectionFooterHeight="40" translatesAutoresizingMaskIntoConstraints="NO" id="lpE-s8-XYf" userLabel="Month Table View">
                                         <rect key="frame" x="0.0" y="0.0" width="233" height="128"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <label key="tableHeaderView" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Month" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dhp-Fi-ZgK" userLabel="Month">
-                                            <rect key="frame" x="0.0" y="0.0" width="233" height="44"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
                                         <prototypes>
                                             <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="month" id="Ouh-it-tgs">
-                                                <rect key="frame" x="0.0" y="98" width="233" height="66"/>
+                                                <rect key="frame" x="0.0" y="54" width="233" height="66"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ouh-it-tgs" id="r6j-hL-DXc">
                                                     <rect key="frame" x="0.0" y="0.0" width="217" height="66"/>
@@ -47,16 +40,9 @@
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="66" sectionHeaderHeight="40" sectionFooterHeight="40" translatesAutoresizingMaskIntoConstraints="NO" id="oeS-I4-qo7" userLabel="Day Table View">
                                         <rect key="frame" x="243" y="0.0" width="234" height="128"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <label key="tableHeaderView" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Day" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="phz-cy-ssd" userLabel="Day">
-                                            <rect key="frame" x="0.0" y="0.0" width="234" height="44"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
                                         <prototypes>
                                             <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="day" id="egh-mQ-rU8">
-                                                <rect key="frame" x="0.0" y="98" width="234" height="66"/>
+                                                <rect key="frame" x="0.0" y="54" width="234" height="66"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="egh-mQ-rU8" id="2bk-Ae-N23">
                                                     <rect key="frame" x="0.0" y="0.0" width="218" height="66"/>
@@ -72,16 +58,9 @@
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="66" sectionHeaderHeight="40" sectionFooterHeight="40" translatesAutoresizingMaskIntoConstraints="NO" id="JbR-iH-zYm" userLabel="Year Table View">
                                         <rect key="frame" x="487" y="0.0" width="233" height="128"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <label key="tableHeaderView" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Year" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="SAq-uq-pWG" userLabel="Year">
-                                            <rect key="frame" x="0.0" y="0.0" width="233" height="44"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
                                         <prototypes>
                                             <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="year" id="rCL-7t-jNg">
-                                                <rect key="frame" x="0.0" y="98" width="233" height="66"/>
+                                                <rect key="frame" x="0.0" y="54" width="233" height="66"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="rCL-7t-jNg" id="dBT-wI-ze9">
                                                     <rect key="frame" x="0.0" y="0.0" width="217" height="66"/>
@@ -100,11 +79,35 @@
                                     <constraint firstAttribute="width" constant="720" id="a24-OP-g0k"/>
                                 </constraints>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Month" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V7c-wI-7nR">
+                                <rect key="frame" x="685" y="395" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Day" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ML-Y8-ib7">
+                                <rect key="frame" x="939" y="404" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Year" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="53R-Qk-5cu">
+                                <rect key="frame" x="1176" y="404" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="V7c-wI-7nR" firstAttribute="baseline" secondItem="53R-Qk-5cu" secondAttribute="baseline" id="73N-uI-CTT"/>
+                            <constraint firstItem="JUC-DQ-noh" firstAttribute="top" secondItem="V7c-wI-7nR" secondAttribute="bottom" constant="60" id="BRp-gR-tAf"/>
                             <constraint firstItem="JUC-DQ-noh" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="K1L-0l-oVe"/>
+                            <constraint firstItem="53R-Qk-5cu" firstAttribute="centerX" secondItem="JbR-iH-zYm" secondAttribute="centerX" id="LIv-fQ-8uH"/>
+                            <constraint firstItem="0ML-Y8-ib7" firstAttribute="centerX" secondItem="oeS-I4-qo7" secondAttribute="centerX" id="MWs-gG-uC6"/>
+                            <constraint firstItem="V7c-wI-7nR" firstAttribute="centerX" secondItem="lpE-s8-XYf" secondAttribute="centerX" id="R9m-Wa-RBe"/>
                             <constraint firstItem="JUC-DQ-noh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RnL-8h-tGX"/>
+                            <constraint firstItem="V7c-wI-7nR" firstAttribute="baseline" secondItem="0ML-Y8-ib7" secondAttribute="baseline" id="wyX-QK-IMB"/>
                         </constraints>
                     </view>
                     <connections>
