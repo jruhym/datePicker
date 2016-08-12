@@ -36,6 +36,8 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
             cell?.textLabel?.text = "\(indexPath.row + 1)"
         } else {
             cell = tableView.dequeueReusableCellWithIdentifier("year")
+            let year = calendar.component(.Year, fromDate: currentDate)
+            cell?.textLabel?.text = "\(year - 1 + indexPath.row)"
         }
         return cell!
     }
