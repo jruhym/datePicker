@@ -33,6 +33,7 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
             cell?.textLabel?.text = calendar.monthSymbols[indexPath.row]
         } else if tableView == dayTable {
             cell = tableView.dequeueReusableCellWithIdentifier("day")
+            cell?.textLabel?.text = "\(indexPath.row + 1)"
         } else {
             cell = tableView.dequeueReusableCellWithIdentifier("year")
         }
