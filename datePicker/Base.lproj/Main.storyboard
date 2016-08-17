@@ -27,7 +27,7 @@
                                                 <rect key="frame" x="0.0" y="54" width="233" height="66"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ouh-it-tgs" id="r6j-hL-DXc">
-                                                    <rect key="frame" x="0.0" y="0.0" width="233" height="66"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="217" height="66"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </tableViewCellContentView>
                                             </tableViewCell>
@@ -45,7 +45,7 @@
                                                 <rect key="frame" x="0.0" y="54" width="234" height="66"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="egh-mQ-rU8" id="2bk-Ae-N23">
-                                                    <rect key="frame" x="0.0" y="0.0" width="234" height="66"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="218" height="66"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </tableViewCellContentView>
                                             </tableViewCell>
@@ -63,7 +63,7 @@
                                                 <rect key="frame" x="0.0" y="54" width="233" height="66"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="rCL-7t-jNg" id="dBT-wI-ze9">
-                                                    <rect key="frame" x="0.0" y="0.0" width="233" height="66"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="217" height="66"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </tableViewCellContentView>
                                             </tableViewCell>
@@ -82,19 +82,25 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Month" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V7c-wI-7nR">
                                 <rect key="frame" x="692" y="395" width="50" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Day" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ML-Y8-ib7">
                                 <rect key="frame" x="945" y="395" width="30" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Year" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="53R-Qk-5cu">
                                 <rect key="frame" x="1186" y="395" width="34" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5V3-HC-yq0">
+                                <rect key="frame" x="939" y="293" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -107,10 +113,13 @@
                             <constraint firstItem="0ML-Y8-ib7" firstAttribute="centerX" secondItem="oeS-I4-qo7" secondAttribute="centerX" id="MWs-gG-uC6"/>
                             <constraint firstItem="V7c-wI-7nR" firstAttribute="centerX" secondItem="lpE-s8-XYf" secondAttribute="centerX" id="R9m-Wa-RBe"/>
                             <constraint firstItem="JUC-DQ-noh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RnL-8h-tGX"/>
+                            <constraint firstItem="0ML-Y8-ib7" firstAttribute="top" secondItem="5V3-HC-yq0" secondAttribute="bottom" constant="81" id="eNw-NW-UOY"/>
+                            <constraint firstItem="5V3-HC-yq0" firstAttribute="centerX" secondItem="0ML-Y8-ib7" secondAttribute="centerX" id="ubK-fz-L4g"/>
                             <constraint firstItem="V7c-wI-7nR" firstAttribute="baseline" secondItem="0ML-Y8-ib7" secondAttribute="baseline" id="wyX-QK-IMB"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="dateLabel" destination="5V3-HC-yq0" id="nrh-in-rRu"/>
                         <outlet property="dayTable" destination="oeS-I4-qo7" id="5u3-2P-svA"/>
                         <outlet property="monthTable" destination="lpE-s8-XYf" id="Ovc-wR-jmg"/>
                         <outlet property="yearTable" destination="JbR-iH-zYm" id="t5W-vR-1yo"/>
